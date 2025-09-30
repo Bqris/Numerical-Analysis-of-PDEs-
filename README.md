@@ -19,7 +19,7 @@
 
 
   In order solve any PDE, initial conditions and boundary conditions should be given.
-  The solution of PDE will be a function from some domain $\Omega$ \subset $\mathbb{R}^2$ to $\mathbb{R}$. 
+  The solution of PDE will be a function from some domain $\Omega$ $\subset$ $\mathbb{R}^2$ to $\mathbb{R}$. 
   (we will only deal with 2 dimensional cases). That means to obtain a solution we must first come up with 
   data structures that encodes the domain information of the PDE, in this step domain discretization will be 
   our primary focus. We will discretize our domain $\Omega$ by first sampling points from within and boundary of
