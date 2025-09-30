@@ -23,8 +23,8 @@
   The solution of PDE will be a function from some domain $\Omega$ embedded in $\mathbb{R}^2$ to $\mathbb{R}$. 
   (we will only deal with 2 dimensional cases). That means to obtain a solution we must first come up with 
   data structures that encodes the domain information of the PDE, in this step domain discretization will be 
-  our primary focus. We will discretize our domain $\bb{\Omega}$ by first sampling points from within and boundary of
-  $\bb{\Omega}$. Then we will use delaunay triangulation to mesh our domains. This will set the stage for solving PDEs.
+  our primary focus. We will discretize our domain $\Omega$ by first sampling points from within and boundary of
+  $\Omega$. Then we will use delaunay triangulation to mesh our domains. This will set the stage for solving PDEs.
 
   After this setup we will deal with nature of PDEs and their mathematical properties in order to extract useful 
   information that could lead us to approximate these PDEs. That will include the choice of basis functions, error
